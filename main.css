@@ -1,0 +1,176 @@
+body {
+    margin: 0 auto;
+    width: 1440px;
+    height: 2689px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.frame1 {
+    width: 1440px;
+    height: 2600px;
+}
+
+.rectangle {
+    width: 1440px;
+    height: 74px;
+}
+
+.mini {
+    width: 940px;
+    height: 40px;
+    top: 17px;
+    left: 250px;
+    position: relative;
+}
+
+.escape {
+    width: 92px;
+    height: 26px;
+    top: 3px;
+    font-family: Lora;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mini2 {
+    width: 376.61px;
+    height: 40px;
+    left: 563.39px;
+    position: relative;
+    top: -20px;
+}
+
+.home,
+.categories,
+.about,
+.contact {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-align: left;
+}
+
+.categories {
+    width: 78px;
+    height: 20px;
+    top: -20px;
+    left: 79.61px;
+    position: relative;
+}
+
+.about {
+    font-size: 11px;
+    top: -40px;
+    left: 197.61px;
+    width: 41px;
+    height: 20px;
+    position: relative;
+}
+
+.contact {
+    top: -60px;
+    width: 58px;
+    height: 20px;
+    left: 278.61px;
+    position: relative;
+}
+
+.zagolovok {
+    width: 940px;
+    height: 159px;
+    top: 52px;
+    left: 250px;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    width: 498px;
+    height: 51px;
+    top: -7px;
+    left: 221px;
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+}
+
+h2 {
+    margin: 20px;
+    width: 504px;
+    height: 20px;
+    top: 0;
+    left: 218px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+    color: #2E2E2EA1;
+}
+
+img {
+    width: 1440px;
+    height: 534px;
+    top: 90px;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text1 {
+    position: relative;
+    width: 1440px;
+    height: 1706px;
+    top: 90px;
+}
+
+.text1 p {
+    margin: 0;
+    position: relative;
+    width: 960px;
+    height: 1431px;
+    left: 240px;
+    top: 140px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #101315;
+}
+
+.frame2 {
+    color: white;
+    width: 1440px;
+    height: 89px;
+}
+
+.frame2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    top: 0;
+    background: #232F3899;
+}
+
+.minif2 {
+    width: 940px;
+    height: 40px;
+    top: -61px;
+    left: 250px;
+    position: relative;
+}
+
+.minif2 .mini2 :not(.escape) {
+    color: #FFFFFF99; 
+}
