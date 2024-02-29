@@ -5,7 +5,7 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-.frame1 {
+.framemain {
     width: 1440px;
     height: 2600px;
 }
@@ -27,18 +27,16 @@ body {
     width: 92px;
     height: 26px;
     top: 3px;
-    font-family: Lora;
+    font-family: 'Lora', serif;
     font-size: 26px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
 }
 
 .mini2 {
-    width: 376.61px;
+    width: 377px;
     height: 40px;
-    left: 563.39px;
+    left: 563px;
     position: relative;
     top: -20px;
 }
@@ -52,20 +50,21 @@ body {
     line-height: 20px;
     letter-spacing: 0.6px;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .categories {
     width: 78px;
     height: 20px;
     top: -20px;
-    left: 79.61px;
+    left: 80px;
     position: relative;
 }
 
 .about {
     font-size: 11px;
     top: -40px;
-    left: 197.61px;
+    left: 198px;
     width: 41px;
     height: 20px;
     position: relative;
@@ -75,11 +74,11 @@ body {
     top: -60px;
     width: 58px;
     height: 20px;
-    left: 278.61px;
+    left: 279px;
     position: relative;
 }
 
-.zagolovok {
+.header {
     width: 940px;
     height: 159px;
     top: 52px;
@@ -127,14 +126,14 @@ img {
     position: relative;
 }
 
-.text1 {
+.textmain {
     position: relative;
     width: 1440px;
     height: 1706px;
     top: 90px;
 }
 
-.text1 p {
+.textmain p {
     margin: 0;
     position: relative;
     width: 960px;
@@ -174,3 +173,16 @@ img {
 .minif2 .mini2 :not(.escape) {
     color: #FFFFFF99; 
 }
+
+/* убрать большие буквы и цифры в названиях
+   списком сделать верхнее меню ul il 
+   поменять название чтобы отображался смысл
+   пиксели должны быть целыми
+   картинку внизу затемнить
+   картинки засунуть в отдельную папку в репозитории
+   в списке дисплей ин лайн блокс
+   использовать смыловые блоки из первой лекции вместо дивов
+   escape картинкой
+   ненужные строчки css которые не на что не влияют убрать
+
+*/
