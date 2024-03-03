@@ -15,7 +15,7 @@ body {
     height: 74px;
 }
 
-.mini {
+.navigation {
     width: 940px;
     height: 40px;
     top: 17px;
@@ -33,7 +33,10 @@ body {
     line-height: 26px;
 }
 
-.mini2 {
+.NavigationBar ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
     width: 377px;
     height: 40px;
     left: 563px;
@@ -105,12 +108,10 @@ h2 {
     margin: 20px;
     width: 504px;
     height: 20px;
-    top: 0;
     left: 218px;
     font-size: 17px;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: center;
     position: relative;
     color: #2E2E2EA1;
@@ -148,35 +149,43 @@ img {
     color: #101315;
 }
 
-.frame2 {
+.framebottom {
     color: white;
     width: 1440px;
     height: 89px;
 }
 
-.frame2 img {
-    width: 100%;
+.framebottom img {
+    width: 1440px;
     height: auto;
     display: block;
     top: 0;
-    background: #232F3899;
 }
 
-.minif2 {
+.NavigationBottom {
     width: 940px;
     height: 40px;
     top: -61px;
     left: 250px;
     position: relative;
+    z-index: 1;
 }
 
-.minif2 .mini2 :not(.escape) {
-    color: #FFFFFF99; 
+.NavigationBottom .NavigationBar li:not(.escape) {
+    color: #FFFFFF99;
+}
+
+.NavigationBack {
+    width: 1440px;
+    height: 89px;
+    position: relative;
+    top: -129px;
+    background: #232F3899;
 }
 
 /* убрать большие буквы и цифры в названиях
    списком сделать верхнее меню ul il 
-   поменять название чтобы отображался смысл
+   поменять название чтобы от сображалсямысл
    пиксели должны быть целыми
    картинку внизу затемнить
    картинки засунуть в отдельную папку в репозитории
@@ -184,5 +193,4 @@ img {
    использовать смыловые блоки из первой лекции вместо дивов
    escape картинкой
    ненужные строчки css которые не на что не влияют убрать
-
 */
