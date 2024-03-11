@@ -1,29 +1,29 @@
 body {
     margin: 0 auto;
-    width: 1440px;
-    height: 2689px;
+    width: 100%;
+    height: 100%;
     font-family: 'Oxygen', sans-serif;
 }
 
-.framemain {
+/*.frame-main {
     width: 1440px;
     height: 2600px;
-}
+}*/
 
-.rectangle {
+/*.rectangle {
     width: 1440px;
     height: 74px;
-}
+}*/
 
 .navigation {
-    width: 940px;
+    width: 65%;
     height: 40px;
     top: 17px;
-    left: 250px;
+    left: 17%;
     position: relative;
 }
 
-.escapebottom {
+.escape-button {
     width: 92px;
     height: 26px;
     top: 3px;
@@ -33,7 +33,7 @@ body {
     line-height: 26px;
 }
 
-.NavigationBar ul {
+.Navigation-Bar ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -41,7 +41,7 @@ body {
     height: 40px;
     left: 563px;
     position: relative;
-    top: -20px;
+    bottom: 20px;
 }
 
 .home,
@@ -59,14 +59,14 @@ body {
 .categories {
     width: 78px;
     height: 20px;
-    top: -20px;
+    bottom: 20px;
     left: 80px;
     position: relative;
 }
 
 .about {
     font-size: 11px;
-    top: -40px;
+    bottom: 40px;
     left: 198px;
     width: 41px;
     height: 20px;
@@ -74,7 +74,7 @@ body {
 }
 
 .contact {
-    top: -60px;
+    bottom: 60px;
     width: 58px;
     height: 20px;
     left: 279px;
@@ -93,7 +93,7 @@ h1 {
     margin: 0;
     width: 498px;
     height: 51px;
-    top: -7px;
+    bottom: 7px;
     left: 221px;
     font-family: 'Lora', serif;
     font-size: 50px;
@@ -126,14 +126,14 @@ img {
     position: relative;
 }
 
-.textmain {
+.text-main {
     position: relative;
     width: 1440px;
     height: 1706px;
     top: 90px;
 }
 
-.textmain p {
+.text-main p {
     margin: 0;
     position: relative;
     width: 960px;
@@ -148,36 +148,47 @@ img {
     color: #101315;
 }
 
-.framebottom {
+.frame-bottom {
     color: white;
     width: 1440px;
     height: 89px;
 }
 
-.framebottom img {
+.frame-bottom img {
     width: 1440px;
     height: auto;
     display: block;
     top: 0;
 }
 
-.NavigationBottom {
+.Navigation-Bottom {
     width: 940px;
     height: 40px;
-    top: -61px;
+    bottom: 61px;
     left: 250px;
     position: relative;
     z-index: 1;
 }
 
-.NavigationBottom .NavigationBar li:not(.escape) {
+.Navigation-Bottom .Navigation-Bar li:not(.escape) {
     color: #FFFFFF99;
 }
 
-.NavigationBack {
+.Navigation-Back {
     width: 1440px;
     height: 89px;
     position: relative;
-    top: -129px;
+    bottom: 129px;
     background: #232F3899;
 }
+.escape {
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+/* вообще убрать все упоминания 1440 
+до 100 пикселей можно оставить
