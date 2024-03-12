@@ -5,16 +5,6 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-/*.frame-main {
-    width: 1440px;
-    height: 2600px;
-}*/
-
-/*.rectangle {
-    width: 1440px;
-    height: 74px;
-}*/
-
 .navigation {
     width: 65%;
     height: 40px;
@@ -37,9 +27,9 @@ body {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    width: 377px;
+    width: 26%;
     height: 40px;
-    left: 563px;
+    left: 60%;
     position: relative;
     bottom: 20px;
 }
@@ -82,19 +72,19 @@ body {
 }
 
 .header {
-    width: 940px;
+    width: 65%;
     height: 159px;
     top: 52px;
-    left: 250px;
+    left: 17%;
     position: relative;
 }
 
 h1 {
-    margin: 0;
-    width: 498px;
+
+    width: 40%;
     height: 51px;
     bottom: 7px;
-    left: 221px;
+    left: 36%;
     font-family: 'Lora', serif;
     font-size: 50px;
     font-weight: 400;
@@ -105,9 +95,9 @@ h1 {
 }
 
 h2 {
-    width: 504px;
+    width: 35%;
     height: 20px;
-    left: 218px;
+    left: 38%;
     font-size: 17px;
     font-weight: 400;
     line-height: 20px;
@@ -117,28 +107,27 @@ h2 {
 }
 
 img {
-    width: 1440px;
+    width: 100%;
     height: 534px;
     top: 90px;
     border-radius: 3px;
-    display: block;
     margin: 0 auto;
     position: relative;
 }
 
 .text-main {
     position: relative;
-    width: 1440px;
-    height: 1706px;
+    width: 100%;
+    height: 63%;
     top: 90px;
 }
 
 .text-main p {
     margin: 0;
     position: relative;
-    width: 960px;
+    width: 67%;
     height: 1431px;
-    left: 240px;
+    left: 17%;
     top: 140px;
     font-family: 'Oxygen';
     font-style: normal;
@@ -150,22 +139,22 @@ img {
 
 .frame-bottom {
     color: white;
-    width: 1440px;
+    width: 100%;
     height: 89px;
 }
 
 .frame-bottom img {
-    width: 1440px;
-    height: auto;
+    width: 100%;
+    height: 89px;
     display: block;
     top: 0;
 }
 
 .Navigation-Bottom {
-    width: 940px;
+    width: 65%;
     height: 40px;
     bottom: 61px;
-    left: 250px;
+    left: 17%;
     position: relative;
     z-index: 1;
 }
@@ -175,7 +164,7 @@ img {
 }
 
 .Navigation-Back {
-    width: 1440px;
+    width: 100%;
     height: 89px;
     position: relative;
     bottom: 129px;
