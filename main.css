@@ -9,7 +9,7 @@ body {
     width: 65%;
     height: 40px;
     top: 17px;
-    left: 17%;
+    margin: auto;
     position: relative;
 }
 
@@ -23,7 +23,7 @@ body {
     line-height: 26px;
 }
 
-.Navigation-Bar ul {
+.navigation-bar ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -72,11 +72,10 @@ body {
 }
 
 .header {
-    width: 65%;
     height: 159px;
     top: 52px;
-    left: 17%;
     position: relative;
+    margin: auto;
 }
 
 h1 {
@@ -84,7 +83,7 @@ h1 {
     width: 40%;
     height: 51px;
     bottom: 7px;
-    left: 36%;
+    margin: auto;
     font-family: 'Lora', serif;
     font-size: 50px;
     font-weight: 400;
@@ -97,7 +96,8 @@ h1 {
 h2 {
     width: 35%;
     height: 20px;
-    left: 38%;
+    margin: auto;
+    margin-top: 1%;
     font-size: 17px;
     font-weight: 400;
     line-height: 20px;
@@ -123,11 +123,10 @@ img {
 }
 
 .text-main p {
-    margin: 0;
-    position: relative;
+    margin-left: 17%;
+    margin-top: 140px;
+    margin-bottom: 100px;
     width: 67%;
-    height: 1431px;
-    left: 17%;
     top: 140px;
     font-family: 'Oxygen';
     font-style: normal;
@@ -138,8 +137,7 @@ img {
 }
 
 .frame-bottom {
-    color: white;
-    width: 100%;
+    margin-top: 9%;
     height: 89px;
 }
 
@@ -150,7 +148,7 @@ img {
     top: 0;
 }
 
-.Navigation-Bottom {
+.navigation-bottom {
     width: 65%;
     height: 40px;
     bottom: 61px;
@@ -159,17 +157,18 @@ img {
     z-index: 1;
 }
 
-.Navigation-Bottom .Navigation-Bar li:not(.escape) {
+.navigation-bottom .navigation-bar li:not(.escape) {
     color: #FFFFFF99;
 }
 
-.Navigation-Back {
+.navigation-back {
     width: 100%;
     height: 89px;
     position: relative;
     bottom: 129px;
     background: #232F3899;
 }
+
 .escape {
     color: white;
     font-family: 'Lora', serif;
@@ -178,6 +177,3 @@ img {
     line-height: 26px;
     text-align: left;
 }
-
-/* вообще убрать все упоминания 1440 
-до 100 пикселей можно оставить
